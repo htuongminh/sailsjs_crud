@@ -1,22 +1,12 @@
 # Sails js CRUD
 
-### Install the MySQL adapter
+### Setting DB with Mysql
 
-	npm install sails-mysql --save --save-exact
-
-### Edit your default datastore configuration in config/datastores.js
-
-	// config/datastores.js
-	module.exports.datastores = {
-	  default: {
-	    adapter: require('sails-mysql'),
-	    url: 'mysql://root:squ1ddy@localhost:3306/my_dev_db_name',
-	  }
-	};
+https://sailsjs.com/documentation/reference/configuration/sails-config-datastores
 
 ### Run command
 
-	npm install
+npm install
 
 
 ### Links
