@@ -1,9 +1,11 @@
 # Sails js CRUD
 
-Install the MySQL adapter
+### Install the MySQL adapter
+
 	npm install sails-mysql --save --save-exact
 
-Edit your default datastore configuration in config/datastores.js
+### Edit your default datastore configuration in config/datastores.js
+
 	// config/datastores.js
 	module.exports.datastores = {
 	  default: {
@@ -12,7 +14,8 @@ Edit your default datastore configuration in config/datastores.js
 	  }
 	};
 
-Run command
+### Run command
+
 	npm install
 
 
